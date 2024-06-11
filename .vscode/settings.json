@@ -1,4 +1,10 @@
 {
+    "yaml.schemas": {
+        "./schema.json": [
+            "**/*.osrs.yaml",
+            "*.osrs.yaml"
+        ]
+    },
     "json.schemas": [
         {
             "fileMatch": ["*.osrs.json"],
